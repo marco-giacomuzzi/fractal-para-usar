@@ -1,10 +1,6 @@
 # Fractal listo para usar
 
-1. `npm install`
-2. `gulp`: Inicia Fractal sin ejecutar tareas de compilación
-3. `gulp dev`: Inicia Fractal con tareas de desarrollo (compilación Sass y tareas de minificación).
-
-## Modulos incluidos en Gulp
+[Fractal](http://fractal.build) list para usar con algunas tareas de Gulp predefinidas:
 
 - @frctl/fractal
 - autoprefixer
@@ -19,3 +15,8 @@
 - gulp-sass-glob
 - gulp-sourcemaps
 - node-sass
+
+## Uso
+1. `npm install`
+2. `gulp`: Inicia Fractal sin ejecutar tareas de compilación
+3. `gulp dev`: Inicia Fractal con tareas de desarrollo (compilación Sass y tareas de minificación).
