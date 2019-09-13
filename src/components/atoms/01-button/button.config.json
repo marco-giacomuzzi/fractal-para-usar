@@ -1,0 +1,31 @@
+{
+  "title": "Button",
+  "default": "Primary",
+  "context": {
+    "buttonType": "button",
+    "buttonText": "Botón por defecto"
+  },
+  "variants": [
+    {
+      "name": "Success",
+      "context": {
+        "buttonModifier": "btn--success",
+        "buttonText": "Botón de confirmación"
+      }
+    },
+    {
+      "name": "Danger",
+      "context": {
+        "buttonModifier": "btn--danger",
+        "buttonText": "Botón de negación"
+      }
+    },
+    {
+      "name": "Link",
+      "context": {
+        "buttonModifier": "btn--link",
+        "buttonText": "Botón tipo link"
+      }
+    }
+  ]
+}
